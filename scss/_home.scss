@@ -1,16 +1,19 @@
+$path: "file:///Users/ghazaleh/Desktop/Sass/Ghazaleh%20Profoilio/dist/img/";
+
 .home {
   height: 100%;
   padding-top: 40vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(
+  background: linear-gradient(
       to right,
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url("../dist/img/model-1.png") center top;
-  background-size: cover;
+    url($path+ "model-1.png") center top;
+  // background-size: cover;
+  background-repeat: no-repeat;
 
   &__name {
     font-size: 5rem;
