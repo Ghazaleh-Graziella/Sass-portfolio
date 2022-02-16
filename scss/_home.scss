@@ -12,7 +12,7 @@ $path: "file:///Users/ghazaleh/Desktop/Sass/Ghazaleh%20Profoilio/dist/img/";
       rgba($primary-color, 0.3)
     ),
     url($path+ "model-1.png") center top;
-  // background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 
   &__name {
